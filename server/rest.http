@@ -1,1 +1,8 @@
-get http://localhost:8800/
+post http://localhost:8800/register
+Content-Type: application/json
+
+{
+    "username": "james mwendwa",
+    "email": "james@gmail.com",
+    "password": "2333333333333"    
+}
